@@ -1,0 +1,12 @@
+{
+  "source_results_files_preserved_byte_for_byte": 76,
+  "all_retained_pngs_valid": true,
+  "python_and_notebook_syntax": true,
+  "bundled_models_load_and_predict": true,
+  "both_exports_valid": true,
+  "six_focused_unit_tests_passed": true,
+  "check_environment": "Python 3.12.14; numpy 2.1.3; scipy 1.16.3; sklearn 1.6.1; pandas 2.2.3; joblib 1.6.0",
+  "full_training_rerun_during_packaging": false,
+  "scientific_limitations_unchanged": true,
+  "three_models_recompressed_losslessly_tree_arrays_verified": true
+}

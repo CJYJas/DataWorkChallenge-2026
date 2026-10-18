@@ -1,0 +1,19 @@
+Column,Unit,Meaning,Caution
+Case,text,Simulation case ID,Official ID split follows prior manifest
+Date,date,Original observation/simulation date,Do not overwrite to improve match
+Model_Query_Date,date,Date used to query proxy,Shift is a hypothesis
+Years_Since_Start,year,Elapsed days from 1998-01-01 /365.25,Derived
+Fault Transmissibility,verify official definition,Static uncertainty parameter,Bounds from TRAIN only
+Porosity Multiplier,dimensionless,Static multiplier,Do not apply twice to PORV
+Permeability Multiplier,dimensionless,Static multiplier,Not absolute permeability
+Aquifer Pore Volume,verify workbook unit,Static aquifer parameter,Not oil-bearing reservoir pore volume
+Oil_Rate,STB/day,Surface oil rate,Units carried from existing Phase4 inputs
+Gas_Rate,MSCF/day,Surface gas rate,1 MSCF = 1000 SCF
+Water_Rate,STB/day,Produced water rate,Not injected water
+Water_Injection_Rate,STB/day,Supplied injection history,Inspected as metadata; no future-control model
+Total_Liquid_Rate,STB/day,Oil_Rate + Water_Rate,Same surface volumetric basis assumed
+WOR,ratio,Water_Rate / Oil_Rate,Undefined when oil is zero
+Water_Cut,fraction,Water / (Oil+Water),Multiply by100 for percent
+Np_MMSTB,million STB,Integrated historical oil,Trapezoids under instantaneous-sample assumption
+Forecast_Cumulative_Gas_Bscf,billion SCF,Integral of MSCF/day divided by1e6,"Forecast-only, excludes past"
+NRMSE,dimensionless,RMSE / fixed TRAIN maximum per fluid,Not accuracy

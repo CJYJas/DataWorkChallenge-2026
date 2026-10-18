@@ -1,0 +1,15 @@
+{
+  "rows": 4100,
+  "observations": 41,
+  "train_scales": {
+    "Oil_Rate": 15567.189453125,
+    "Gas_Rate": 5655.56005859375,
+    "Water_Rate": 9186.0517578125
+  },
+  "interpolated_counts": {
+    "Oil_Rate_Interpolated": 0,
+    "Gas_Rate_Interpolated": 0,
+    "Water_Rate_Interpolated": 0
+  },
+  "config_sha256": "7a28e6e93785f778c64a28f55692627cfaf892f63603e626a4581292dd721990"
+}

@@ -1,0 +1,58 @@
+{
+  "seed": 42,
+  "n_estimators": 200,
+  "pool_power": 11,
+  "refine_per_round": 128,
+  "cutoffs": [
+    "2005-01-01",
+    "2006-01-01"
+  ],
+  "horizon_quarters": 8,
+  "trend_window": 9,
+  "query_shifts": [
+    0,
+    3
+  ],
+  "rate_convention": "instantaneous_assumed",
+  "operations_confirmed": false,
+  "date_rule_confirmed": false,
+  "test_previously_inspected": true,
+  "candidate_relative_allowance": 0.25,
+  "candidate_absolute_allowance": 0.002,
+  "methods": [
+    "exp_linear_water",
+    "arps_linear_water",
+    "wor_constant_liquid",
+    "wor_declining_liquid",
+    "hm_wor_constant_liquid",
+    "hm_wor_declining_liquid"
+  ],
+  "objectives": {
+    "equal": {
+      "fluid_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "recent_multiplier": 1.0,
+      "slope_lambda": 0.0
+    },
+    "recent_balanced": {
+      "fluid_weights": [
+        0.45,
+        0.1,
+        0.45
+      ],
+      "recent_multiplier": 2.0,
+      "slope_lambda": 0.15
+    }
+  },
+  "limitations": [
+    "Raw Phase 1 cleaning and original Phase 3 training notebook unavailable.",
+    "Full-history TRAIN simulator proxy retained; pseudo-field target future is hidden.",
+    "Only short-horizon tests available, not 20-year validation.",
+    "Bounds are TRAIN extrema, not official physical uncertainty bounds.",
+    "Case numbering split follows supplied bundle; verify official ID assignments.",
+    "Timing and future operations remain hypotheses. No calibrated probabilities."
+  ]
+}

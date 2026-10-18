@@ -1,0 +1,8 @@
+Check,Pass
+Q0: ten case IDs and complete quarterly curves,True
+Q0: distinct forecast trajectories,True
+Q3: ten case IDs and complete quarterly curves,True
+Q3: distinct forecast trajectories,True
+15 validation cases × 2 origins,True
+15 test cases × 2 origins,True
+Selection code fingerprint unchanged,True

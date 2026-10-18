@@ -1,0 +1,11 @@
+{
+  "complete": true,
+  "number_of_scenarios": 20,
+  "selected_method": "hm_wor_constant_liquid",
+  "parameter_conditioned_forecast": true,
+  "structural_uncertainty_complete": false,
+  "probabilities_calibrated": false,
+  "twenty_year_validated": false,
+  "ten_cases_exported": false,
+  "case_selection_required": "Choose one date hypothesis after review; separate 10-case draft available for each."
+}

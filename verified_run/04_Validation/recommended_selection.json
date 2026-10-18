@@ -1,0 +1,10 @@
+{
+  "objective": "recent_balanced",
+  "method": "hm_wor_constant_liquid",
+  "score": 0.027761504388844057,
+  "rule": "Minimum mean case/origin equal-fluid NRMSE on validation only; ties alphabetical.",
+  "configuration_count": 12,
+  "case_count": 15,
+  "cutoff_count": 2,
+  "known_limit": "Same validation cases used for proxy selection; development comparison, not untouched evidence."
+}

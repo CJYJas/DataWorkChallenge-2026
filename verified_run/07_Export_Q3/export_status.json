@@ -1,0 +1,23 @@
+{
+  "case_count": 10,
+  "rows": 810,
+  "distinct_forecast_trajectories_at_6dp": 10,
+  "query_shift_months": 3,
+  "date_rule_confirmed": false,
+  "schema": "Team schema, not an organizer-verified upload template",
+  "official_submission_ready": false,
+  "warning": "Scenario spread is not probability.",
+  "missing_deliverables": [
+    "Final documentation PPTX",
+    "Power BI PBIX or required service link",
+    "Video",
+    "Repository submission URL"
+  ],
+  "required_reviews": [
+    "Date convention",
+    "Operating assumptions",
+    "Final 10 selection",
+    "Official upload schema",
+    "Raw Phase 1 audit"
+  ]
+}

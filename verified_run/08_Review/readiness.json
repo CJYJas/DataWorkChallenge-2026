@@ -1,0 +1,12 @@
+{
+  "computational_pipeline_executed": true,
+  "technical_checks_passed": true,
+  "prediction_quality_accepted": false,
+  "twenty_year_validated": false,
+  "official_submission_ready": false,
+  "reasons": [
+    "Field transfer still imperfect, including a poor 2005 origin.",
+    "Date convention, operations and raw-data audit unresolved.",
+    "PPTX, PBIX/video/repository submission and official schema remain separate tasks."
+  ]
+}
